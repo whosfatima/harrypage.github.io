@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "harry";
+    src: url(harryfont/Amorino_beta.ttf) format("truetype");
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+     font-family: harry;
+}
+.header {
+    height: 100px;
+/*    background-color: lightgray;*/
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.header .h2-header {
+/*    font-family: harry;*/
+    letter-spacing: 2px;
+    font-size: 80px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 30px; 
+    color: #CF4520;
+    cursor: pointer;
+}
+.right {
+    position: absolute;
+    right: 0px;
+}
+.right ul {
+  padding-top: 25px;
+    padding-right: 30px;
+}
+.right ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 30px;
+/*   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+    width: 100px;
+    height: 40px;
+    border-radius: 23px;
+    cursor: pointer;
+    
+/*
+    padding-top:6px;
+    padding-right: 10px;
+*/
+}
+.right ul li:active {
+  top: 8px;
+  box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;
+
+}
+.right ul li a {
+    
+ text-decoration: none;
+    color: #CF4520;
+    letter-spacing: 2px;
+}
+.right ul li:hover {
+   background-color: #CF4520;
+    color: white;
+   
+}
+.right ul li a:hover {
+      background-color: #CF4520;
+    color: white;
+}
+.container {
+    padding-left: 30px;
+}
+.imgh{
+    border-radius: 15px;
+    width: 800px;
+    
+}
